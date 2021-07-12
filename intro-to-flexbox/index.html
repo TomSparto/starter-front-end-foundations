@@ -1,58 +1,90 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Front-end foundations: Intro to flexbox</title>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
 
-  <body>
-    <main>
-      <h1>Important Page Heading</h1>
-      <section>
-        <h2>Group #1 Heading</h2>
-        <!-- Group #1 with 3 items -->
-        <div class="group">
-          <div class="item">
-            <h3>Item 1</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <p>
-              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-          <div class="item">
-            <h3>Item 2</h3>
-            <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum. Quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div class="item">
-            <h3>Item 3</h3>
-            <p>
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
-            </p>
-          </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Front-end foundations: Intro to flexbox</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main>
+    <h1>Important Page Heading</h1>
+    <section>
+      <h2>Group #1 Heading</h2>
+      <!-- Group #1 with 3 items -->
+      <div class="group">
+        <div class="item">
+          <h3>Item 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p>
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
+          </p>
         </div>
-      </section>
-    </main>
-  </body>
+        <div class="item">
+          <h3>Item 2</h3>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum. Quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <div class="item">
+          <h3>Item 3</h3>
+          <p>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>2 Items (1/3 x 2/3)</h2>
+      <div class="group">
+        <div class="item">Lorem mollis cras ac semper litora iaculis tristique mus tincidunt ultrices nisi fermentum
+          donec Congue laoreet dictumst. Magna convallis varius. Proin vel nascetur quis dui maecenas lacinia elementum
+          egestas varius fames natoque massa ac varius nunc, neque sit lobortis feugiat integer ultrices ad dui cursus
+          eros ante hymenaeos eros pretium.</div>
+        <div class="item item-double">Sagittis montes tempor sem eu lectus vitae per litora dictum per. Fermentum Auctor
+          maecenas
+          id. Dolor enim lacinia porta auctor, hymenaeos lectus dui dictum vulputate curae; iaculis. Tristique
+          suspendisse congue metus sem ultrices ligula leo hendrerit etiam hac at litora imperdiet litora orci conubia.
+          Diam dictumst feugiat cum accumsan volutpat.</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>3 Items (1/4 x 1/2 x 1/4)</h2>
+      <div class="group">
+        <div class="item">Purus orci vel vitae. Sit a elementum habitasse primis magnis dis vehicula imperdiet.
+          Vehicula. Felis magnis ullamcorper curae; aenean nam vitae. Fusce nonummy adipiscing mus. Tempor nibh rutrum
+          nulla sociis ante netus, sem. Hac imperdiet id curabitur fusce nisi enim amet. Interdum mus. Suscipit
+          condimentum nibh lobortis tempor, integer curabitur.</div>
+        <div class="item item-double">Morbi dictum volutpat varius integer cras convallis purus. Netus erat. Odio
+          vestibulum ligula
+          leo sit hymenaeos aliquet montes quam consectetuer faucibus aptent, ad praesent curabitur. Leo magnis.
+          Tincidunt consequat. Nibh nam cubilia ullamcorper turpis aenean ipsum proin sollicitudin. Dignissim enim
+          varius. Egestas taciti molestie porttitor at nisi tristique habitasse Orci.</div>
+        <div class="item">Malesuada cursus. Accumsan. Congue urna natoque justo proin eros purus facilisi aliquam
+          vestibulum rhoncus nisi laoreet. Ac erat phasellus tristique proin eget aptent. Sem dapibus mi condimentum.
+          Natoque tellus malesuada eget. Sociosqu enim amet. Nam aliquam gravida. Vehicula consequat est morbi,
+          sollicitudin mattis mauris conubia non aliquet aliquam mollis erat.</div>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
